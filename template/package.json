@@ -11,7 +11,9 @@
     "nativescript-vue": "^1.3.1",
     "tns-core-modules": "~3.4.1",
     "nativescript-pulltorefresh": "^2.1.1",
-    "nativescript-pdf-view": "^2.0.1"
+    "nativescript-pdf-view": "^2.0.1",
+    "nativescript-handle-file": "^4.0.0",
+    "nativescript-download-progress": "^1.1.0"
   },
   "devDependencies": {
     "babel-traverse": "6.26.0",
