@@ -1,7 +1,7 @@
 {
   "name": "ns-vue-invoice",
   "version": "1.0.0",
-  "description": "Mutliplatfor app for Invoice Magazine",
+  "description": "Mutliplatform app for Invoise Magazine",
   "author": "ekhlusov <ekhlusov@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -24,7 +24,7 @@
     "nativescript-pulltorefresh": "^2.1.1",
     "nativescript-theme-core": "^1.0.4",
     "nativescript-vue": "^1.3.1",
-    "tns-core-modules": "~3.4.1",
+    "tns-core-modules": "^4.2.0",
     "vue-axios": "^2.1.3",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"

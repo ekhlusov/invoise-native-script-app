@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 import Home from '../components/Home';
-import MagPage from '../components/MagPage';
+import MagPage from '../components/MagPageTabs';
 
 const router = new VueRouter({
     pageRouting: true,
@@ -27,6 +27,6 @@ const router = new VueRouter({
     ],
 });
 
-router.replace('/home');
+router.replace('/mag');
 
 module.exports = router;

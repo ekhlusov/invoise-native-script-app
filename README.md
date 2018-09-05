@@ -1,6 +1,6 @@
-# Invoice Mag
+# Invoise Mag
 
-> Mutliplatfor app for Invoice Magazine
+> Mutliplatform app for Invoise Magazine
 
 ## Usage
 

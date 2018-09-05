@@ -2,9 +2,12 @@
     <Page class="page">
         <ActionBar title="Invoise Magazine" class="action-bar">
             <FlexboxLayout flexDirection="column"
-                         ios:horizontalAlignment="center"
-                         android:horizontalAlignment="center">
-                <Image src="~/images/invoise_ab_logo.png" class="action-image" stretch="none"/>
+                           horizontalAlignment="center"
+                           verticalAlignment="center">
+                <Image src="~/images/invoise_ab_logo.png"
+                       class="action-image"
+                       stretch="aspectFit"
+                       height="35"/>
             </FlexboxLayout>
         </ActionBar>
         <ScrollView>
@@ -15,8 +18,9 @@
                             <FlexboxLayout flexDirection="column" class="mag-list" :backgroundImage="mag.cover">
                                 <StackLayout width="100%" class="mag-list__right">
                                     <Label class="opacity-block"></Label>
-                                    <FlexboxLayout flexDirection="row" justifyContent="space-between" alignItems="stretch" alignContent="stretch"
-                                    class="mag-info-block">
+                                    <FlexboxLayout flexDirection="row" justifyContent="space-between"
+                                                   alignItems="stretch" alignContent="stretch"
+                                                   class="mag-info-block">
                                         <FlexboxLayout flexDirection="column" flexGrow="1" class="info-container">
                                             <Label :text="mag.title" class="mag-list__right--title"/>
                                             <Label :text="mag.pages + ' стр., ' + mag.size + ' мб.'"
@@ -45,7 +49,7 @@
 </template>
 
 <script>
-    import MagPage from './MagPage'
+    import MagPage from './MagPageTabs'
     import axios from 'axios'
 
     export default {

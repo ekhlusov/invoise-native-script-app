@@ -9,7 +9,7 @@
   "dependencies": {
     "nativescript-theme-core": "^1.0.4",
     "nativescript-vue": "^1.3.1",
-    "tns-core-modules": "~3.4.1",
+    "tns-core-modules": "^4.2.0",
     "nativescript-pulltorefresh": "^2.1.1",
     "nativescript-pdf-view": "^2.0.1",
     "nativescript-handle-file": "^4.0.0",
